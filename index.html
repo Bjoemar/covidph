@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CORONA </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="w-nav">
+			<div class="icon-nav">
+				<a href="index.html"><button>Latest PH</button></a>
+				<a href="outside.html"><button>Latest Outside PH</button></a>
+				<a href="test_result.html"><button>Latest Test Result</button></a>
+			</div>	
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 col-sm-12 t-center b-col">
+				<div class="wrapper">
+					<h2 id="total-recoverd" style="color: green;">0</h2>
+					<p>Total Recoverd</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6 t-center b-col">
+				<div class="wrapper">
+					<h2 id="total-case" style="color: red">0</h2>
+					<p>Philiphine Cases <span style="color: red;">+ <strong id="new_cases"></strong></span></p>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6 t-center b-col">
+				<div class="wrapper">
+					<h2 id="total-death" style="color: red">0</h2>
+					<p>Total Died</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<footer>
+		<small>Develop By Baclea-an Joemar</small>
+	</footer>
+
+</body>
+<script type="text/javascript">
+	
+	$('.w-nav').find('a').eq(0).find('button').css('border-bottom' , '1px solid #fefefe')
+</script>
+<script type="text/javascript" src="assets/script/main.js"></script>
+</html>
