@@ -82,7 +82,7 @@ $.ajax({
 		{
 
 			if (data[i]['died'] == null) {
-				var died = 0;
+				var died = 1;
 			} else {
 				var died = data[i]['died'];
 			}
